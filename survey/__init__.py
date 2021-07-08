@@ -1,7 +1,6 @@
 from otree.api import (
     models,
     widgets,
-    Survey,
     BaseConstants,
     BaseSubsession,
     BaseGroup,
