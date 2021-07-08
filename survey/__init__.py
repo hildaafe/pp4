@@ -1,14 +1,5 @@
-from otree.api import Currency as c, currency_range
-from otree.api import (
-    widgets,
-    Page,
-    BaseConstants,
-    BaseSubsession,
-    BaseGroup,
-    BasePlayer,
-    Currency as c,
-    currency_range,
-)
+from otree.api import *
+
 
 
 
@@ -54,6 +45,7 @@ class Player(BasePlayer):
         '''
     )
 
+# FUNCTIONS
 # PAGES
 
 class CognitiveReflectionTest(Page): 
