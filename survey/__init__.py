@@ -53,7 +53,7 @@ class Player(BasePlayer):
         '''
     )
 
-
+# PAGES
 
 class Demographics(Page):
     form_model = 'player'
