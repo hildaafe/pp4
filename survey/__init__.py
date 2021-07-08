@@ -1,5 +1,4 @@
 from otree.api import Currency as c, currency_range
-from . import models
 from otree.api import (
     widgets,
     Page,
