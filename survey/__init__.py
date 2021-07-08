@@ -55,8 +55,7 @@ class Player(BasePlayer):
 
 # PAGES
 
-class CognitiveReflectionTest(Page):
-    form_model = 'player'
+class CognitiveReflectionTest(Page): form_model = 'player'
     form_fields = ['crt_bat', 'crt_widget', 'crt_lake']
     
 class Demographics(Page):
